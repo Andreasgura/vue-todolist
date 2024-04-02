@@ -32,7 +32,7 @@ createApp({
           text,
           done : false        
       };
-      console.log(newId);
+      // console.log(newId);
       this.toDo.push(newLi);
       this.text = ''       
       },

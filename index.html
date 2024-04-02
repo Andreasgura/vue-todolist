@@ -27,7 +27,7 @@
                 </li>
             </ul>
             <div class="input-group mt-4 ">
-                <input type="text" v-model="text" class="form-control" placeholder="Inserisci nuovo elemento" aria-label="Text input with segmented dropdown button">
+                <input type="text" v-model="text" class="form-control" placeholder="Inserisci nuovo elemento" aria-label="Text input with segmented dropdown button" @keyup.enter="addNewLi(text)">
                 <button type="button" class="btn btn-outline-secondary" @click="addNewLi(text)" >Inseisci</button>   
             </div>
         </main>
